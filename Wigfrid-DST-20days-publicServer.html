@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wigfrid Timeline</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div id="timeline"></div>
+
+    <script>
+      // Define timeline data
+      const data = [
+        { label: "Days 1-3", start: 1, end: 3, details: "- Collect basic resources\n- Search for a good base location\n- Craft a spear and a battle helm\n- Explore the map and collect meat-based foods\n- Build a fire pit and a science machine\n- Hunt rabbits, spiders, and other small creatures for meat\n- Start building a basic base" },
+        { label: "Days 4-7", start: 4, end: 7, details: "- Explore the map and collect resources like gold, rocks, and logs\n- Start gathering materials to build more advanced structures\n- Continue hunting and cooking meat in the crock pot\n- Build a farm to grow crops\n- Start gathering materials to craft a better weapon\n- Hunt beefalo" },
+        { label: "Days 8-12", start: 8, end: 12, details: "- Expand your base by building additional structures\n- Start exploring more dangerous areas of the map\n- Hunt spiders and collect silk and monster meat\n- Craft a football helmet or a beekeeper hat\n- Start collecting materials to build an alchemy engine\n- Collect honey and start making honey ham" },
+        { label: "Days 13-17", start: 13, end: 17, details: "- Continue exploring the map and collecting rare resources\n- Start crafting more advanced items\n- Build a pig house or recruit followers\n- Start building a meat effigy\n- Collect food like frog legs and fish\n- Hunt tallbirds" },
+        { label: "Days 18-20", start: 18, end: 20, details: "- Continue building and expanding your base\n- Focus on gathering rare resources\n- Build a shadow manipulator\n- Start collecting nightmare fuel\n- Explore the map and prepare for winter" },
+      ];
+
+      // Define timeline dimensions
+      const width = 800;
+      const height = 100;
+      const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+      const innerWidth = width - margin.left - margin.right;
+      const innerHeight = height - margin.top - margin.bottom;
+
+      // Create SVG element
+      const svg = d3.select("#timeline")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      // Define scales
+      const xScale = d3.scaleLinear()
+        .domain([1, 20])
+        .range([margin.left, innerWidth + margin.left]);
+
+      // Add timeline labels
+      svg.selectAll("text")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => xScale(d.start) + (xScale(d.end) - xScale(d.start)) / 2)
+        .attr("y", margin.top)
+        .text(d => d.label)
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "hanging");
+
+      // Add timeline details on hover
+      svg.selectAll("rect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .

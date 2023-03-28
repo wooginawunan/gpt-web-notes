@@ -1,6 +1,10 @@
 ---
 layout: default
-title: My Website
+title: DST-Guide
 ---
 
-This is my website. Welcome!
+Welcome to our Don't Starve Together character guide! In this page, we'll explore the various characters available in the game and provide helpful tips and strategies to survive the first 20 days of gameplay. Whether you're a seasoned player looking to try out a new character or a newcomer to the game, our guide is designed to help you unlock as many features and abilities as possible, while avoiding the many dangers that lurk in the wilderness.
+
+Each character in Don't Starve Together has unique strengths and weaknesses, as well as special abilities that can help you survive and thrive in different ways. Some characters are better at fighting, while others excel at gathering resources or crafting tools. To make the most of your character's strengths, it's important to understand their mechanics and learn how to play to their strengths.
+
+In this guide, we'll provide an overview of each character, along with tips and suggestions for surviving the first 20 days of gameplay. You'll also find links to detailed subpages for each character, where you can learn more about their abilities and strategies for success. So whether you're looking to try out a new character or want to brush up on your survival skills, our guide has everything you need to get started in Don't Starve Together!

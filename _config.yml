@@ -1,3 +1,4 @@
 collections:
   characters:
     output: true
+    include: "characters/*.md"

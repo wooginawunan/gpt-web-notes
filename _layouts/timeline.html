@@ -9,46 +9,62 @@
       <h1>{{ page.name }}</h1>
     </header>
     <main>
-
-        <!-- {% assign timeline = site.data.timelines[page.character] %} -->
-
-        <!-- <div class="timeline">
-        {% for event in timeline %}
+        
+        {% assign timeline = site.data.timelines[page.character] %}
+        
+        <div class="timeline">
+          {% assign prev_time = '' %}
+          {% for event in timeline %}
             {% assign time = event | split: '##' | first %}
-            {% assign action = event | remove: time | remove: '##' %}
-            <div class="event">
-            <div class="time">{{ time }}</div>
-            <div class="action">{{ action }}</div>
-            </div>
-        {% endfor %}
+            {% assign actions = event | remove: time | remove: '##' | split: '---' %}
+            {% if time != prev_time %}
+              <div class="time">{{ time }}</div>
+              {% assign prev_time = time %}
+            {% endif %}
+            {% for action in actions %}
+              <div class="event">
+                <div class="bullet"></div>
+                <div class="action">{{ action }}</div>
+              </div>
+            {% endfor %}
+          {% endfor %}
         </div>
-
+        
         <style>
         .timeline {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
         }
-
-        .event {
-        display: flex;
-        gap: 10px;
-        margin: 10px 0;
-        }
-
+        
         .time {
-        min-width: 80px;
-        text-align: right;
-        font-weight: bold;
+          text-align: center;
+          font-weight: bold;
+          margin: 10px 0;
         }
-
+        
+        .event {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-left: 50px;
+          position: relative;
+        }
+        
+        .bullet {
+          position: absolute;
+          left: -25px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: #ccc;
+        }
+        
         .action {
-        flex: 1;
+          flex: 1;
         }
-        </style> -->
-
-
-      {{ content }}
+        </style>
+        
     </main>
     <footer>
       <p>© 2023 Nan Wu</p>

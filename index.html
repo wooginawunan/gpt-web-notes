@@ -10,6 +10,7 @@ characters: {{ site.characters }}
 
 <p id="landing-page-text-small"> In this guide, we'll provide an overview of each character, along with tips and suggestions for surviving the first 20 days of gameplay. You'll also find links to detailed subpages for each character, where you can learn more about their abilities and strategies for success. So whether you're looking to try out a new character or want to brush up on your survival skills, our guide has everything you need to get started in Don't Starve Together! </p> 
 
+<pre>{{ site.characters | jsonify }}</pre>
 
 {% for character in site.characters %}
     <div>

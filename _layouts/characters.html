@@ -9,15 +9,7 @@
       <h1>{{ page.name }}</h1>
     </header>
     <main>
-        {{ content }}
-
-        
-
         {% assign timeline = site.data.timelines[page.character] %}
-
-        <pre>{{ timeline | jsonify }}</pre>
-        <pre>{{ page.name | jsonify }}</pre>
-        <pre>{{ page.character | jsonify }}</pre>
         
         <div class="timeline">
           {% assign prev_time = '' %}
@@ -45,7 +37,7 @@
         }
         
         .time {
-          text-align: center;
+          text-align: left;
           font-weight: bold;
           margin: 10px 0;
         }

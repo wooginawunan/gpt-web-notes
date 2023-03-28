@@ -36,7 +36,7 @@
       ];
 
       // Define timeline dimensions
-      const width = 1500;
+      const width = 1200;
       const height = 2000;
       const margin = { top: 20, right: 20, bottom: 20, left: 20 };
       const innerWidth = width - margin.left - margin.right;
@@ -66,15 +66,23 @@
          .attr("fill", "blue")
          .style("font", "20px 'Arial', sans-serif");
       
-      // Add timeline rectangles
-      svg.selectAll("rect")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("x", d => xScale(d.start))
-        .attr("y", 50)
-        .attr("width", d => xScale(d.end) - xScale(d.start))
-        .attr("height", 20);
+//       #Add timeline rectangles
+//       svg.selectAll("rect")
+//         .data(data)
+//         .enter()
+//         .append("rect")
+//         .attr("x", d => xScale(d.start))
+//         .attr("y", 50)
+//         .attr("width", d => xScale(d.end) - xScale(d.start))
+//         .attr("height", 20);
+      // Add timeline arrows
+      svg.selectAll("path")
+          .data(data)
+          .enter()
+          .append("path")
+          .attr("d", d => "M " + xScale(d.start) + " 60 L " + xScale(d.end) + " 60 M " + xScale(d.end) + " 60 L " + (xScale(d.end) - 5) + " 55 M " + xScale(d.end) + " 60 L " + (xScale(d.end) - 5) + " 65")
+          .attr("stroke", "black")
+          .attr("stroke-width", 2);
 
 //       // Add timeline details
 //       svg.selectAll("foreignObject")

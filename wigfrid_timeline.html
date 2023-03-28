@@ -36,8 +36,8 @@
       ];
 
       // Define timeline dimensions
-      const width = 800;
-      const height = 200;
+      const width = 1000;
+      const height = 1000;
       const margin = { top: 20, right: 20, bottom: 20, left: 20 };
       const innerWidth = width - margin.left - margin.right;
       const innerHeight = height - margin.top - margin.bottom;
@@ -52,7 +52,20 @@
       const xScale = d3.scaleLinear()
         .domain([1, 20])
         .range([margin.left, innerWidth + margin.left]);
-
+      
+      // Add timeline labels
+      svg.selectAll("text")
+          .data(data)
+          .enter()
+          .append("text")
+          .attr("x", d => xScale(d.start) + (xScale(d.end) - xScale(d.start)) / 2)
+          .attr("y", margin.top)
+          .text(d => d.label)
+          .attr("text-anchor", "middle")
+          .attr("alignment-baseline", "hanging")
+          .attr("fill", "white")
+          .style("font", "14px 'Arial', sans-serif");
+      
       // Add timeline rectangles
       svg.selectAll("rect")
         .data(data)

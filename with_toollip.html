@@ -1,0 +1,83 @@
+// Set the dimensions of the canvas / graph
+const margin = {top: 50, right: 30, bottom: 30, left: 50};
+const width = 800 - margin.left - margin.right;
+const height = 400 - margin.top - margin.bottom;
+
+// Parse the date / time
+const parseTime = d3.timeParse("%Y-%m-%d");
+
+// Set the ranges
+const xScale = d3.scaleTime().range([0, width]);
+const yScale = d3.scaleBand().range([height, 0]);
+
+// Define the axes
+const xAxis = d3.axisBottom(xScale);
+const yAxis = d3.axisLeft(yScale);
+
+// Define the line
+const line = d3.line()
+    .x(d => xScale(d.date))
+    .y(d => yScale(d.value));
+
+// Adds the svg canvas
+const svg = d3.select("body")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+const data = [    {date: "2021-01-01", value: 10, label: "Data point 1"},    {date: "2021-02-01", value: 20, label: "Data point 2"},    {date: "2021-03-01", value: 30, label: "Data point 3"},    {date: "2021-04-01", value: 40, label: "Data point 4"},    {date: "2021-05-01", value: 50, label: "Data point 5"},];
+
+// Format the data
+data.forEach(d => {
+    d.date = parseTime(d.date);
+});
+
+// Scale the range of the data
+xScale.domain(d3.extent(data, d => d.date));
+yScale.domain(data.map(d => d.label));
+
+// Add the X Axis
+svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+
+// Add the Y Axis
+svg.append("g")
+    .call(yAxis);
+
+// Add the line
+svg.append("path")
+    .datum(data)
+    .attr("class", "line")
+    .attr("d", line);
+
+// Add the data points
+svg.selectAll(".dot")
+    .data(data)
+    .enter().append("circle")
+    .attr("class", "dot")
+    .attr("cx", d => xScale(d.date))
+    .attr("cy", d => yScale(d.label))
+    .attr("r", 5)
+    .on("mouseover", function(d) {
+        tooltip.transition()
+            .duration(200)
+            .style("opacity", .9);
+        tooltip.html("Value: " + d.value + "<br/>Date: " + d.date.toLocaleDateString())
+            .style("left", (d3.event.pageX + 5) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+    })
+    .on("mouseout", function(d) {
+        tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
+    });
+
+// Add the tooltip
+const tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+

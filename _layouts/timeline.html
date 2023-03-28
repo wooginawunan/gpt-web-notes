@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.name }} - Don't Starve Together Characters</title>
+  </head>
+  <body>
+    <header>
+      <h1>{{ page.name }}</h1>
+    </header>
+    <main>
+
+        <!-- {% assign timeline = site.data.timelines[page.character] %} -->
+
+        <!-- <div class="timeline">
+        {% for event in timeline %}
+            {% assign time = event | split: '##' | first %}
+            {% assign action = event | remove: time | remove: '##' %}
+            <div class="event">
+            <div class="time">{{ time }}</div>
+            <div class="action">{{ action }}</div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <style>
+        .timeline {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        }
+
+        .event {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+        }
+
+        .time {
+        min-width: 80px;
+        text-align: right;
+        font-weight: bold;
+        }
+
+        .action {
+        flex: 1;
+        }
+        </style> -->
+
+
+      {{ content }}
+    </main>
+    <footer>
+      <p>© 2023 Nan Wu</p>
+    </footer>
+  </body>
+</html>
+

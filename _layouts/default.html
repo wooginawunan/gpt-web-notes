@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wigfrid Timeline</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Don't Starve Together Characters</title>
   </head>
   <body>
-	{{ content }}
-  </body>      .
+    <header>
+      <h1>Don't Starve Together Characters</h1>
+    </header>
+    <main>
+      {% for character in site.characters %}
+      <div>
+        <h2><a href="{{ character.url }}">{{ character.name }}</a></h2>
+        <p>{{ character.description }}</p>
+      </div>
+      {% if forloop.last == false %}
+      <hr>
+      {% endif %}
+      {% endfor %}
+      {{ content }}
+    </main>
+    <footer>
+      <p>© 2023 Nan Wu</p>
+    </footer>
+  </body>
+</html>

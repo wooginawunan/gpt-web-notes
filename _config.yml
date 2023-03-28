@@ -2,3 +2,4 @@ collections:
   characters:
     output: true
     include: "characters/*.md"
+    permalink: /characters/:name/

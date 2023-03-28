@@ -3,6 +3,20 @@
   <head>
     <title>Wigfrid Timeline</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      rect {
+        fill: #ccc;
+        opacity: 0;
+      }
+      rect:hover {
+        opacity: 0.7;
+      }
+      text {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-anchor: middle;
+      }
+    </style>
   </head>
   <body>
     <div id="timeline"></div>
@@ -42,16 +56,6 @@
         .append("text")
         .attr("x", d => xScale(d.start) + (xScale(d.end) - xScale(d.start)) / 2)
         .attr("y", margin.top)
-        .text(d => d.label)
-        .attr("text-anchor", "middle")
-        .attr("alignment-baseline", "hanging");
+        .text(d => d.label);
 
-      // Add timeline details on hover
-      svg.selectAll("rect")
-        .data(data)
-        .enter()
-        .append("rect")
-        .
-      <script>
-  </body>
-</html>
+      // Add timeline details

@@ -9,6 +9,7 @@
       <h1>Don't Starve Together Characters</h1>
     </header>
     <main>
+      {{ content }}
       {% for character in site.characters %}
       <div>
         <h2><a href="{{ character.url }}">{{ character.name }}</a></h2>
@@ -18,7 +19,6 @@
       <hr>
       {% endif %}
       {% endfor %}
-      {{ content }}
     </main>
     <footer>
       <p>© 2023 Nan Wu</p>

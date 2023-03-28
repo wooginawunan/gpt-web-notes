@@ -1,3 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wigfrid Timeline</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      /* Define timeline styles */
+      .timeline {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        fill: #555;
+      }
+
+      .timeline rect {
+        fill: #ccc;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .timeline text {
+        fill: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timeline"></div>
+
+    <script>
+      // Define timeline data
 // Set the dimensions of the canvas / graph
 const margin = {top: 50, right: 30, bottom: 30, left: 50};
 const width = 800 - margin.left - margin.right;
@@ -80,4 +109,9 @@ svg.selectAll(".dot")
 const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
+        
+        
+</script>
+ </body>
+</html>
 

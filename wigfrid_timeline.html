@@ -4,17 +4,21 @@
     <title>Wigfrid Timeline</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-      rect {
+      /* Define timeline styles */
+      .timeline {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        fill: #555;
+      }
+
+      .timeline rect {
         fill: #ccc;
-        opacity: 0;
+        stroke: #fff;
+        stroke-width: 2px;
       }
-      rect:hover {
-        opacity: 0.7;
-      }
-      text {
-        font-family: sans-serif;
-        font-size: 12px;
-        text-anchor: middle;
+
+      .timeline text {
+        fill: #333;
       }
     </style>
   </head>
@@ -33,7 +37,7 @@
 
       // Define timeline dimensions
       const width = 800;
-      const height = 100;
+      const height = 200;
       const margin = { top: 20, right: 20, bottom: 20, left: 20 };
       const innerWidth = width - margin.left - margin.right;
       const innerHeight = height - margin.top - margin.bottom;
@@ -56,6 +60,9 @@
         .append("text")
         .attr("x", d => xScale(d.start) + (xScale(d.end) - xScale(d.start)) / 2)
         .attr("y", margin.top)
-        .text(d => d.label);
-
-      // Add timeline details
+        .text(d => d.label)
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "hanging");
+    </script>
+ </body>
+</html>

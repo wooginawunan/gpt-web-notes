@@ -114,7 +114,7 @@
         .style("font", "14px 'Arial', sans-serif")
         .append("xhtml:ul")
         .selectAll("li")
-        .data(d => d.details.split("\n"))
+        .data(d => d.details)
         .enter()
         .append("li")
         .html(d => d);

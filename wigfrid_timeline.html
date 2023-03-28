@@ -76,6 +76,23 @@
         .attr("width", d => xScale(d.end) - xScale(d.start))
         .attr("height", 20);
 
+//       // Add timeline details
+//       svg.selectAll("foreignObject")
+//         .data(data)
+//         .enter()
+//         .append("foreignObject")
+//         .attr("x", d => xScale(d.start))
+//         .attr("y", 75)
+//         .attr("width", d => xScale(d.end) - xScale(d.start))
+//         .attr("height", 1000)
+//         .append("xhtml:body")
+//         .style("font", "14px 'Arial', sans-serif")
+//         .append("xhtml:ul")
+//         .selectAll("xhtml:li")
+//         .data(d => d.details.split("\n"))
+//         .enter()
+//         .append("xhtml:li")
+//         .html(d => d);
       // Add timeline details
       svg.selectAll("foreignObject")
         .data(data)
@@ -85,13 +102,13 @@
         .attr("y", 75)
         .attr("width", d => xScale(d.end) - xScale(d.start))
         .attr("height", 1000)
-        .append("xhtml:body")
+        .append("xhtml:div")
         .style("font", "14px 'Arial', sans-serif")
         .append("xhtml:ul")
-        .selectAll("xhtml:li")
+        .selectAll("li")
         .data(d => d.details.split("\n"))
         .enter()
-        .append("xhtml:li")
+        .append("li")
         .html(d => d);
 
     </script>

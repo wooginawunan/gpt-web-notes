@@ -2,4 +2,4 @@ collections:
   characters:
     output: true
     include: "characters/*.md"
-    # permalink: site:/gpt-web-notes/characters/:name/
+    permalink: /gpt-web-notes/characters/:name/

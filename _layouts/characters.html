@@ -9,8 +9,8 @@
       <h1>{{ page.name }}</h1>
     </header>
     <main>
+        {{content}}
         {% assign timeline = site.data.timelines[page.character] %}
-        
         <div class="timeline">
           {% assign prev_time = '' %}
           {% for event in timeline %}

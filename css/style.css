@@ -83,3 +83,29 @@ body {
   #list1 p a, #list2 p a, #list3 p a {
     color: #ffd
   }  
+
+  div {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+  }
+
+  div p {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 1;
+    min-width: 200px;
+  }
+
+  div:hover p {
+    display: block;
+  }

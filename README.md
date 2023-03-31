@@ -1,6 +1,6 @@
 # Guildlines for Don't Starve Together by ChatGPT
 
-Motivation:
+### Motivation:
 
 When playing the game, once you are sufficient enough skill-wise, you want to make it more interesting by trying different things, which I hope to achieve by playing in different roles. 
 
@@ -19,4 +19,22 @@ Some general strategies I have:
 
 Prompts I used:
 
+
+
 - 
+
+#### Roadmap
+
+Todos:
+- [Nan] formalize the content generation prompts for: 
+
+    * Homepage: Background and basic introduction per character.
+    * Character page
+
+- [] formalize the prompts supporting data pipelne:
+    * format the generated contents as `YAML` and `markdown` files.
+
+- [] webpage improvement 
+    * add a theme 
+    * better designed timeline presentation 
+    * 

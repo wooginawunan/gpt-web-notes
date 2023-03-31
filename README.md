@@ -1,5 +1,6 @@
 # Guildlines for Don't Starve Together by ChatGPT
 
+Webpage: https://wooginawunan.github.io/gpt-web-notes/
 ### Motivation:
 
 When playing the game, once you are sufficient enough skill-wise, you want to make it more interesting by trying different things, which I hope to achieve by playing in different roles. 

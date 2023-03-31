@@ -1,0 +1,85 @@
+body {
+    background-color: #f5deb3;
+    background-image: linear-gradient(135deg, #6b3e1f 25%, transparent 25%), linear-gradient(225deg, #6b3e1f 25%, transparent 25%), linear-gradient(315deg, #6b3e1f 25%, transparent 25%), linear-gradient(45deg, #6b3e1f 25%, transparent 25%);
+    background-position: 0 0, 0 100%, 100% 100%, 100% 0;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6b3e1f;
+    font-family: 'Rockwell', sans-serif;
+    text-shadow: 2px 2px #ccc;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #list1, #list2, #list3 {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #000;
+    position: relative;
+  }
+  
+  #list1:before, #list2:before, #list3:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid #6b3e1f;
+    border-top: 25px solid #6b3e1f;
+    border-bottom: 25px solid #6b3e1f;
+  }
+  
+  #list1:after, #list2:after, #list3:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    border-right: 25px solid transparent;
+    border-left: 25px solid #6b3e1f;
+    border-top: 25px solid #6b3e1f;
+    border-bottom: 25px solid #6b3e1f;
+  }
+  
+  #list1 h2, #list2 h2, #list3 h2 {
+    font-family: 'Rockwell', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #6b3e1f;
+    text-shadow: 2px 2px #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #list1 ul, #list2 ul, #list3 ul {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: 'Rockwell', sans-serif;
+    color: #6b3e1f;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  #list1 p, #list2 p, #list3 p {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Rockwell', sans-serif;
+    font-size: 24px;
+    color: #6b3e1f;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  #list1 p a, #list2 p a, #list3 p a {
+    color: #ffd
+  }  

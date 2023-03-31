@@ -38,3 +38,7 @@ Todos:
     * add a theme 
     * better designed timeline presentation 
     * 
+
+#### Notes
+
+- It is harder to generate stylistic changes (i.e. .css) than it is to generate the content of a webpage (i.e. .html), therefore it may be easier to generate a temporary test .html first, then generate and fine tune the style .css fill before finalizing a structure/template of the ending .html file.

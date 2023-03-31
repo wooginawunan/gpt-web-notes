@@ -46,6 +46,10 @@
     text-align: center;
     }
   
+    div.content {
+        text-align: center;
+    }
+
     nav {
     background-color: #2c2b2a;
     padding: 1rem;

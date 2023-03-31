@@ -13,7 +13,7 @@
       {{ content }}
       {% for character in site.characters %}
       <div>
-        <h2><a href="{{ site.baseurl }}{{ character.url }}">{{ character.name }}</a></h2>
+        <h2><a href="{{ character.url }}">{{ character.name }}</a></h2>
         <p>{{ character.description }}</p>
       </div>
       {% if forloop.last == false %}

@@ -9,7 +9,7 @@
     <header>
       <h1>{{ page.name }}</h1>
     </header>
-    <main>
+    <main class="container">
         <div class="content">{{content}}</div>
         {% assign timeline = site.data.timelines[page.character] %}
         <div class="timeline">
@@ -31,6 +31,12 @@
         </div>
         
         <style>
+        .container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 20px;
+        }
+        
         .timeline {
           display: flex;
           flex-direction: column;
@@ -71,4 +77,3 @@
     </footer>
   </body>
 </html>
-

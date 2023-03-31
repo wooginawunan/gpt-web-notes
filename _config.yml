@@ -3,3 +3,8 @@ collections:
     output: true
     include: "characters/*.md"
     permalink: /gpt-web-notes/characters/:name/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+

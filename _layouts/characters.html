@@ -12,6 +12,18 @@
         {{content}}
         {% assign timeline = site.data.timelines[page.character] %}
         <div class="timeline">
+          {% for day in timeline %}
+            <div class="time"> {{ day.day }}</div>
+            {% for action in day.actions %}
+              <div class="event">
+                <div class="bullet"></div>
+                <div class="action">{{ action }}</div>
+              </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+        <!-- {% assign timeline = site.data.timelines[page.character] %}
+        <div class="timeline">
           {% assign prev_time = '' %}
           {% for event in timeline %}
             {% assign time = event | split: '##' | first %}
@@ -27,7 +39,7 @@
               </div>
             {% endfor %}
           {% endfor %}
-        </div>
+        </div> -->
         
         <style>
         .timeline {

@@ -10,83 +10,103 @@
       <h1>{{ page.name }}</h1>
     </header>
     <main class="container">
+      <!-- <div class="content">{{content}}</div>
+      {% assign timeline = site.data.timelines[page.character] %}
+      <div class="timeline">
+        {% assign prev_time = '' %}
+        {% for event in timeline %}
+          {% assign time = event | split: '##' | first %}
+          {% assign actions = event | remove: time | remove: '##' | split: '---' %}
+          
+          {% if time != prev_time %}
+            <div class="time">{{ time }}</div>
+            {% assign prev_time = time %}
+          {% endif %}
+
+          {% for action in actions %}
+            <div class="event">
+              <div class="bullet"></div>
+              <div class="action">{{ action }}</div>
+            </div>
+          {% endfor %}
+
+        {% endfor %}
+      </div>
+        
+      <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .time {
+        text-align: left;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+      
+      .event {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 50px;
+        position: relative;
+      }
+      
+      .bullet {
+        position: absolute;
+        left: -25px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ccc;
+      }
+      
+      .action {
+        flex: 1;
+      }
+      </style> -->
+
+      <section class="guide-section">
         <div class="content">{{content}}</div>
         {% assign timeline = site.data.timelines[page.character] %}
-        <div class="timeline">
-          {% assign prev_time = '' %}
-          {% for event in timeline %}
-            {% assign time = event | split: '##' | first %}
-            {% assign actions = event | remove: time | remove: '##' | split: '---' %}
-            {% if time != prev_time %}
-              <div class="time">{{ time }}</div>
-              {% assign prev_time = time %}
-            {% endif %}
-            {% for action in actions %}
-              <div class="event">
-                <div class="bullet"></div>
-                <div class="action">{{ action }}</div>
-              </div>
-            {% endfor %}
-          {% endfor %}
+        <div class="guide-card">
+          <img src="{{ site.baseurl }}/assets/images/{{ guide.image }}" alt="{{ guide.title }}">
+          <div>
+            <h2>{{ guide.title }}</h2>
+            <p>{{ guide.description }}</p>
+            <ul>
+              {% assign prev_time = '' %}
+                {% for event in timeline %}
+                  {% assign time = event | split: '##' | first %}
+                  {% assign actions = event | remove: time | remove: '##' | split: '---' %}
+                  
+                  {% if time != prev_time %}
+                    <div class="time">{{ time }}</div>
+                    {% assign prev_time = time %}
+                  {% endif %}
+
+                  {% for action in actions %}
+                    <li>{{ action }}</li>
+                  {% endfor %}
+
+                {% endfor %}
+            </ul>
+            <a href="{{ guide.url }}"><button>Play as {{ guide.character }}</button></a>
+          </div>
         </div>
-        
-        <style>
-        .container {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 20px;
-        }
-        
-        .timeline {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-        }
-        
-        .time {
-          text-align: left;
-          font-weight: bold;
-          margin: 10px 0;
-        }
-        
-        .event {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          margin-left: 50px;
-          position: relative;
-        }
-        
-        .bullet {
-          position: absolute;
-          left: -25px;
-          width: 20px;
-          height: 20px;
-          border-radius: 50%;
-          background-color: #ccc;
-        }
-        
-        .action {
-          flex: 1;
-        }
-        </style>
+      </section>
         
     </main>
     <footer>
       <p>© 2023 Nan Wu</p>
     </footer>
-  </body>
-  <script>
-    // Get the first column element
-    const firstColumn = document.querySelector('.content');
-    
-    // Add a scroll event listener to the window object
-    window.addEventListener('scroll', () => {
-      // Calculate the amount to translate the first column based on the current scroll position
-      const translateY = window.pageYOffset || document.documentElement.scrollTop;
-      // Apply the translation to the first column using a CSS transform
-      firstColumn.style.transform = `translateY(${translateY}px)`;
-    });
-  </script>
-  
+  </body>  
 </html>

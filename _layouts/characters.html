@@ -76,4 +76,17 @@
       <p>© 2023 Nan Wu</p>
     </footer>
   </body>
+  <script>
+    // Get the first column element
+    const firstColumn = document.querySelector('.content');
+    
+    // Add a scroll event listener to the window object
+    window.addEventListener('scroll', () => {
+      // Calculate the amount to translate the first column based on the current scroll position
+      const translateY = window.pageYOffset || document.documentElement.scrollTop;
+      // Apply the translation to the first column using a CSS transform
+      firstColumn.style.transform = `translateY(${translateY}px)`;
+    });
+  </script>
+  
 </html>

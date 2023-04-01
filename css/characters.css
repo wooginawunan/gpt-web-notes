@@ -154,6 +154,21 @@
     border-radius: 50%;
     background-color: #7ED321; /* Set the color of the checked checkbox */
     }
+
+    li label:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    li input[type=checkbox]:checked + label:before {
+    background-color: #7ED321;
+    border-color: #7ED321;
+    }
     
     .guide-card button {
     background-color: #b5b5b5;

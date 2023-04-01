@@ -48,6 +48,7 @@
   
     div.content {
         text-align: center;
+        padding: 20px;
     }
 
     nav {
@@ -70,63 +71,13 @@
     justify-content: space-around;
     padding: 1rem;
     }
-  .char-section {
-    width: 100%;
-    max-width: 800px;
-    }
-    
-    .char-card {
-    background-color: #46362c;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
-    margin-bottom: 1rem;
-    overflow: hidden;
-    width: 100%;
-    max-width: 400px;
-    }
-    
-    .char-card img {
-    display: block;
-    margin: 0 auto;
-    }
-    
-    .char-card h2 {
-    background-color: #b5b5b5;
-    color: #1d1d1d;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    }
-    
-    .char-card p {
-    color: #f0f0f0;
-    padding: 1rem;
-    }
-    
-    .char-card button {
-    background-color: #b5b5b5;
-    border: none;
-    border-radius: 0.25rem;
-    color: #1d1d1d;
-    cursor: pointer;
-    display: block;
-    font-size: 1rem;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    transition: background-color 0.3s ease;
-    width: 80%;
-    }
-    
-    .char-card button:hover {
-    background-color: #7f7f7f;
-    }
-    
+
     .guide-section {
     width: 100%;
     max-width: 800px;
     }
     
-    .guide-card {
+    /*.guide-card {
     background-color: #46362c;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
@@ -135,7 +86,19 @@
     overflow: hidden;
     width: 100%;
     max-width: 800px;
-    }
+    }*/
+
+    .guide-card {
+        background-color: #46362c;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        margin-bottom: 1rem;
+        overflow: hidden;
+        width: 100%;
+        max-width: 800px;
+      }
     
     .guide-card img {
     flex: 1;
@@ -203,3 +166,13 @@
       color: #a7854c;
     }
     
+    .time:before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, #f9d71c, transparent);
+        box-shadow: 0 0 3px 3px #f9d71c;
+      }

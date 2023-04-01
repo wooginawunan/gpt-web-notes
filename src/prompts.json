@@ -1,0 +1,5 @@
+{
+    "basic_intro": "Don’t starve together has many characters. Give me a short introducation of $NAME$.",
+    "description": "How is $NAME$ different from other roles, especially when it comes to playing strategies? Anser my questions below as in markdown format, adding styles to make it more readable" ,
+    "timeline": "Assuming I am a experienced player but don't have much experience with the character, $NAME$. I play on one of the Klei's public servers. The goal is to survive for 20 days and unlock as many different things as possible, especially about the specific character, $NAME$.  If you were me, what actions you will take everyday? such as the resources to collect, the feasts to hunt, the food to eat. I want your timeline as precise as possible. Please put your timeline as a YAML file (starting and ending with '```'), formated as below. \n `\n- day: 1\n\tactions:\n\t- action 1\n\t- action 2`"   
+}

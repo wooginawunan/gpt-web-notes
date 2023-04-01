@@ -1,7 +1,37 @@
-- "Day 1##Immediately start gathering resources such as twigs, grass, and flint to make basic tools like an axe, pickaxe, and spear.---Explore the immediate area to find a good location for your base. Wigfrid benefits from being close to enemies to gain sanity from combat, so consider setting up near a spider den or other hostile creatures.---Hunt down some rabbits or birds to make a quick food source. You can make a trap using grass and twigs, or use your spear to kill them directly.---Use your spear to kill spiders for silk and monster meat. You can eat monster meat as Wigfrid without penalty, so this is a good source of food early on.---Start a fire at night and cook your food to make it last longer."
-- "Day 2-3:##Continue gathering resources such as logs and rocks to build more advanced structures and tools.---Find a source of gold to make a science machine, which will allow you to craft more advanced items.---Make a helmet to protect yourself in combat, as well as a log suit if you can afford the resources.---Hunt down a koalefant for its meat and trunk, which can be used to make a winter hat."
-- "Day 4-6:##Start gathering resources for winter. This includes making a thermal stone and gathering materials to make warm clothing.---Find a source of beefalo wool to make a beefalo hat, which provides warmth and protection.---Set up some drying racks to preserve meat for the winter."
-- "Day 7-10:##Find a source of ice to make an ice box, which will allow you to store food longer.---Make some healing salve using spider glands and ash, which can be used to heal yourself in combat.---Start preparing for hound attacks, which will start to occur soon. Build a tooth trap field and have a weapon ready to defend yourself."
-- "Day 11-14:##Continue preparing for winter and hound attacks. Make sure you have enough warm clothing and food stored up.---Start exploring further out to find new resources and structures to unlock. This could include a pig king or a desert biome."
-- "Day 15-18:##Build a birdcage and start collecting birds to make eggs and feathers.---Find a source of nitre and make some gunpowder, which can be used to blow up boulders or defeat tougher enemies.---Start preparing for the seasonal boss, which will arrive soon. Make sure you have good weapons and armor, and try to recruit other players to help you."
-- "Day 19-20:##Defeat the seasonal boss and unlock new items and structures.---Celebrate your survival and consider starting a new game with a different character to continue unlocking new things."
+
+- day: 1
+  actions:
+    - Collect resources for basic tools (Twigs, Grass, Flint, Rocks, logs)
+    - Gather enough resources for a Campfire and basic shelter 
+    - Look for Meat-based food sources, such as Rabbits and Frogs
+    - Use the Battle Helm and Spear to hunt more creatures for extra meat
+- day: 2
+  actions:
+    - Scavenge for more resources to improve your base (Logs, Stones, Gold Nuggets)
+    - Find a suitable location to build the base, preferably near ample hunting grounds
+    - Hunt for food to replenish your resources 
+    - Experiment with creating Meat-based dishes for better nourishment
+- day: 3-5
+  actions:
+    - Work on establishing a sustainable source of food
+    - Keep hunting for Meat as needed, but look for alternatives like Shrooms and carrots
+    - Create better equipment, like the Log Suit and Spear to continue combat training
+    - Explore the Map for interesting finds, including new creatures to battle
+- day: 6-10
+  actions:
+    - Building a structure for sanity regeneration, such as a Tent
+    - Plant Tooth Traps Bear-traps and lure animals in for easier hunting 
+    - Utilize alternative light sources, such as the Miner Hat or Torch
+    - Begin the search for the Three Chess Pieces to enter the ruins
+- day: 11-14
+  actions:
+    - Keep gathering resources and exploring new biomes
+    - Combat training with the help of the other character of your team 
+    - Start crafting Armor and better weapons such as the Hambat
+    - Get a Prestihatitator and start discovering new crafts and inventions. 
+- day: 15-20
+  actions:
+    - Craft a Meat Effigy for life insurance where possible 
+    - Head to the Ruins and start exploring 
+    - Experiment with new crafted items to see what works best against the Ruins' inhabitants
+    - Keep hunting and gathering for better nourishment and equipment

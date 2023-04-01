@@ -1,6 +1,38 @@
-- "Days 1-3##Gather basic resources such as twigs, grass, flint, and rocks---Build a science machine to unlock more crafting recipes---Look for gears to use as fuel to increase WX-78's stats---Collect as much food as possible, prioritizing gears and spoiled food---Build a lightning rod to protect your base from lightning strikes"
-- "Days 4-6##Start exploring the map to find more resources and potential base locations---Look for pig villages to trade with pigs and collect pig skins---Build a backpack to increase your inventory space---Build a crock pot and start cooking food to maximize its nutritional value---Consider building a birdcage to collect eggs and feathers for more advanced recipes"
-- "Days 7-10##Continue exploring and gathering resources---Look for koalefants and beefalo herds to hunt for meat and other resources---Consider building a drying rack to preserve meat for later use---Build a spear and football helmet to prepare for combat---Consider building a bee box to collect honey"
-- "Days 11-14##Start focusing on unlocking more advanced recipes and structures---Look for reeds to build a birdcage and start collecting caged birds---Build an alchemy engine to unlock even more recipes---Consider building a fire pit to protect your base from wildfires---Continue exploring to find more resources and potential base locations"
-- "Days 15-17##Start preparing for winter, which will begin on day 21---Build a thermal stone to stay warm in the cold weather---Collect as much wood as possible to fuel your fire---Build a winter hat to keep your character warm---Consider building a tent to restore your character's health and sanity"
-- "Days 18-20##Finish up any remaining tasks and prepare for winter---Stock up on food and fuel for the fire---Build an icebox to preserve food for longer periods of time---Consider building a walking cane to move around faster---Stay near your base and stay warm during the winter"
+
+- day: 1
+  actions:
+    - Collect rocks and twigs to make basic tools and a fire pit
+    - Explore the surrounding area for food sources and any nearby gears
+    - Hunt rabbits and birds using traps for easy food
+    - Start gathering resources for a base, including logs and grass
+    - Start planting berry bushes and saplings near the future base location
+- day: 2
+  actions:
+    - Continue exploring and gathering resources, prioritizing gears
+    - Start planning and building a permanent base, including basic structures like walls and a chest
+    - Keep food supplies stocked up with berries and any meat collected from hunting
+    - Begin using gears to generate lightning for extra protection at night
+- day: 3-5
+  actions:
+    - Focus on getting the base up and running, including building a science machine and alchemy engine to unlock new recipes
+    - Start farming to grow a sustainable food source, such as dragon fruits or eggplants
+    - Continue collecting gears whenever possible to keep WX-78 charged
+    - Begin exploring further from the base to find new resources and potential clockwork monster spawns
+- day: 6-10
+  actions:
+    - Start experimenting with WX-78's unique abilities, such as using lightning to take down large groups of enemies
+    - Hunt beefalo for meat and fur, which can be used to make winter clothing
+    - Gather ice in preparation for summer, if applicable
+    - Begin exploring the caves for additional resources and loot
+- day: 11-15
+  actions:
+    - Prepare for any upcoming seasonal changes, such as gathering resources for the summer heat or winter cold
+    - Hunt down clockwork monsters for gears and other valuable loot
+    - Experiment with different base layouts and defenses to better protect against enemy attacks
+    - Keep experimenting with WX-78's unique abilities to find new ways to use them effectively
+- day: 16-20
+  actions:
+    - Focus on unlocking as many new items and structures as possible, including WX-78's unique items
+    - Use this knowledge to improve the overall base layout and make life easier for future playthroughs
+    - Keep high tier items like an umbrella in use due to WX's vulnerability to rain
+    - Try to enjoy the remaining days while being as efficient as possible with resource utilization 

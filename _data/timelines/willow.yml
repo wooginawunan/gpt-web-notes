@@ -1,27 +1,49 @@
-- Day 1:
-  - Gather basic resources like twigs, grass, and flint to craft tools and weapons.
-  - Look for a good location to set up your base camp.
-  - Build a campfire and set up a basic shelter.
-  - Start gathering food by hunting rabbits, gathering berries, or fishing if you are near a pond.
 
-- Day 2-5:
-  - Continue to gather resources and expand your base camp as needed.
-  - Craft a crockpot and start experimenting with different recipes to cook more complex meals.
-  - Look for more advanced resources like gold and rocks.
-  - Consider exploring the map to find more resources.
+- day: 1
+  actions:
+  - Collect resources for a base - at least 60 wood, 20 grass, and 12 rocks
+  - Craft a torch to explore the nearby area and gather some basic resources such as berries, carrots, and flint
+  - Craft a campfire and start a base near a rocky biome for easy access to gold and boulders
+  - Hunt some birds or rabbits for food
+  - Cook some food and eat until full to restore health
+- day: 2
+  actions:
+  - Explore the surrounding area for more resources and potential base locations
+  - Chop down some trees for logs and plant pinecones
+  - Mine some rocks for gold and flint
+  - Take advantage of Willow's fire starting ability to light up the base and craft more items
+- day: 3-4
+  actions:
+  - Start building essential structures such as a science machine, a crockpot, and a drying rack
+  - Hunt some beefalos for their fur or meat and collect some silk from spider dens
+  - Always keep an eye on Willow's sanity level and eat green mushrooms, cooked cacti or top hats for restoration
+  - Use the crockpot to create more nutritious dishes with meat and vegetables in order to endure longer days  
+- day: 5-6
+  actions:
+  - Hunt some koalefants for their meat and trunk to create an insulated backpack
+  - Gather materials for more advanced structures such as an alchemy engine or a bird cage
+  - Use the bird cage to collect bird feathers to make arrows or a boomerang for ranged fights
+  - Keep exploring the surrounding area while keeping an eye on the day cycle
+- day: 7-8
+  actions:
+  - Set up a lightning rod to prevent fires during the summer
+  - Collect some gears from clockworks for Ice Flingomatics, which is important during the summer
+  - Always have a stockpile of essential resources such as wood, food, healing items, and light sources
+  - Create traps for easy meat and check Beehives for honey and beeswax
+- day: 9-15
+  actions:
+  - Explore new biomes for rare resources such as blue gems or bee queen hives
+  - Be careful around Merm farms that are usually found in swamp biomes and could be somewhat dangerous
+  - Keep preparing for the summer by creating more structures such as fans, a sewing kit, and summer clothing
+- day: 16-19
+  actions:
+  - Prepare to fight bosses such as the Deerclops or the Bearger by creating needed weapons, tools and protective gear
+  - Be mindful of hound attacks and set traps to deal with them
+  - Always keep your sanity up with the use of a top hat, green mushroom, or cooked cacti 
+  - Continue exploring and unlocking new achievements and secrets
+- day: 20
+  actions:
+  - Congratulate yourself for a successful 20-day survival run!
+  - Analyze which Willow-based achievements you have or haven't accomplished, like "I'll form the head" or "Asking for burnination"
+  - Take notes on what you have learned while playing Willow to improve future gameplay. 
 
-- Day 6-10:
-  - By this point, you should have a basic setup for your base camp and be relatively self-sufficient.
-  - Look for ways to increase your defenses against monsters and other dangers.
-  - Consider building more advanced structures like an alchemy engine or a birdcage.
-
-- Day 11-15:
-  - Continue to explore the map and gather resources as needed.
-  - Start thinking about long-term survival strategies.
-  - Consider building a lightning rod to protect your base from lightning strikes.
-
-- Day 16-20:
-  - By this point, you should be well-established in your base camp and have access to a variety of resources and crafting recipes.
-  - Focus on achieving your specific goals for the game.
-  - Keep an eye on your sanity levels.
-  - Be prepared for unexpected events and challenges.

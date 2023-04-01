@@ -161,7 +161,6 @@
         background-color: rgb(2, 192, 2);
         border-radius: 50%;
         transition: all 0.3s ease;
-        transform: translate(-50%, -50%) scale(2);
       }
       
       input[type=checkbox]:checked:after {
@@ -178,7 +177,6 @@
       }
 
       input[type="checkbox"]:not(:checked) {
-        transform: scale(2);
         border-color: #ffffff;
       }
       

@@ -10,6 +10,7 @@
       <h1>Don't Starve Together Characters</h1>
     </header>
     <main>
+      <!--
       {{ content }}
       {% for character in site.characters %}
       <div>
@@ -20,6 +21,21 @@
       <hr>
       {% endif %}
       {% endfor %}
+      -->
+
+      <section class="char-section">
+        {% for character in site.characters %}
+        <div class="char-card">
+          <h2><a href="{{ site.baseurl }}{{ character.url }}">{{ character.name }}</a></h2>
+          <img src="{{ site.baseurl }}/assets/images/{{ character.image }}" alt="{{ character.name }}">
+          <p>{{ char.description }}</p>
+          <a href="{{ site.baseurl }}{{ character.url }}"><button>View Guide</button></a>
+        </div>
+        {% if forloop.last == false %}
+        <hr>
+        {% endif %}
+        {% endfor %}
+      </section>
     </main>
     <footer>
       <p>© 2023 Nan Wu</p>

@@ -1,5 +1,6 @@
 # Guildlines for Don't Starve Together by ChatGPT
 
+Webpage: https://wooginawunan.github.io/gpt-web-notes/
 ### Motivation:
 
 When playing the game, once you are sufficient enough skill-wise, you want to make it more interesting by trying different things, which I hope to achieve by playing in different roles. 
@@ -15,11 +16,26 @@ Thus, I want to provide a general to-dos provided by someone knowledgeable in th
 Some general strategies I have:
 
 - I kept a clean version of prompt for each character, once I identify a working template. Basically, I worry about having every thing in the one long thread, will hurts the goal of making distinct timelines serving the best of different characters. 
-- The same strategy is used in the separation of the coding  
+- The same strategy is used in the separation of the coding and content generation. 
 
-Prompts I used:
+**Prompts I used:**
 
+#### Background
 
+> Don’t starve together has many characters. I have to make a webpage hosted on GitHub pages in Jekyll, where the homepage include the introduction and the lists of characters, each can be clicked by user and leads to a subpage showing the suggested actions the first 20 days. 
+> I have the following assumptions about the timeline generated per character:
+> Assuming we have an experienced player but don't have much experience with the specific character, such as Wigfrid. The user is playing on one of the Klei's public servers. The goal is to survive for 20 days and unlock as many different things as possible, especially about the specific character. 
+> Would you please give a nice introduction to include on the homepage? 
+
+#### Character-wise content
+> Don’t starve together has many characters.  Do you know “NAME”? How is he/she different from other roles, especially when it comes to playing strategies?
+
+> Assuming I am a experienced player but don't have much experience with the character, NAME. I play on one of the Klei's public servers. The goal is to survive for 20 days and unlock as many different things as possible, especially about the specific character.  Could you give me a timeline in detail, with actions to take listed, including the resources to collect, the feasts to hunt, the food to eat, as deta
+ils as possible.
+
+> Use exactly what you proposed but format the timeline in a YAML file as:
+` - "Day 1##Collect grass, twigs, and flint---Build a campfire before nightfall" `
+each action per day is seperated by `---`
 
 - 
 

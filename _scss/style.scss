@@ -1,0 +1,36 @@
+// Set the font size and color for the character names
+h2 {
+    font-size: 24px;
+    color: #2a2a2a;
+    margin-bottom: 0;
+  }
+  
+  // Add a bottom margin to the character descriptions
+  p {
+    margin-bottom: 20px;
+  }
+  
+  // Add a line separator between each character
+  hr {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    margin: 20px 0;
+  }
+  
+  // Center the page content
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  // Set the background color for the page
+  body {
+    background-color: #f6f6f6;
+  }
+  
+  // Set the font family and size for the page
+  body, input, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  

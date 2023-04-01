@@ -23,7 +23,7 @@
               {% for day in timeline %}
                 <div class="time">Day {{ day.day }}</div>
                 {% for action in day.actions %}
-                  <li>{{ action }}</li>
+                  <li><input type="checkbox"><label>{{ action }}</label></li>
                 {% endfor %}
               {% endfor %}
             </ul>

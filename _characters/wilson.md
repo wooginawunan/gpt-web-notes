@@ -3,7 +3,8 @@ layout: characters
 name: Wilson
 character: wilson
 description: Wilson is a gentleman scientist who was drawn into the wilderness by a mysterious force. He has a passion for scientific research and experimentation, and his unruly white hair and tailored suit give him a distinct appearance. Wilson is a balanced character, with moderate stats in all areas, and his special ability allows him to craft a special item called the "Portable Science Machine." This enables him to craft items on the go, without needing to return to a stationary Science Machine.
-url: /characters/wilson
+url: /characters/wilson/
+image: wilson.png
 ---
 ## **Wilson vs Other Roles in Don't Starve Together**
 

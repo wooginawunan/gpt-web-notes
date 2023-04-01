@@ -1,5 +1,6 @@
 # Guildlines for Don't Starve Together by ChatGPT
 
+Webpage: https://wooginawunan.github.io/gpt-web-notes/
 ### Motivation:
 
 When playing the game, once you are sufficient enough skill-wise, you want to make it more interesting by trying different things, which I hope to achieve by playing in different roles. 
@@ -53,3 +54,11 @@ Todos:
     * add a theme 
     * better designed timeline presentation 
     * 
+
+#### Notes
+
+- It is harder to generate stylistic changes (i.e. .css) than it is to generate the content of a webpage (i.e. .html), therefore it may be easier to generate a temporary test .html first, then generate and fine tune the style .css fill before finalizing a structure/template of the ending .html file.
+
+- GPT can be provided with code or a section of code to edit/update. Sometimes a description of what it does currently and what you want it to do helps to get a more specific answer.
+
+- When asking to change a specific element of code, it works better to provide a section of code and ask to change the specific item, and explicitly say change nothing else.

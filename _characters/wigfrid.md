@@ -3,7 +3,8 @@ layout: characters
 name: Wigfrid
 character: wigfrid
 description: Wigfrid is a playable character in Don’t Starve Together. She is a dramatic and performer-like character who is keen on theatre and battle. She has a unique perk - she starts with a Battle Helm and Spear, making her well-equipped to handle enemies. She also has an insane trait - she can only eat meat, and not vegetables or fruits. Additionally, she is quite demanding when it comes to food and will have a sanity penalty if she eats anything vegetarian. Overall, Wigfrid is a strong character who can prove to be a valuable asset for any team with her combat skills.
-url: /characters/wigfrid
+url: /characters/wigfrid/
+image: wigfrid.png
 ---
 # Wigfrid in Don't Starve Together
 

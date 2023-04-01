@@ -16,7 +16,7 @@
         {% assign timeline = site.data.timelines[page.character] %}
         <div class="guide-card">
           <img src="{{ site.baseurl }}/assets/images/{{ guide.image }}" alt="{{ guide.title }}">
-          <div>
+          <div class="all-day-actions">
             <ul>
               {% for day in timeline %}
                 <div class="time">Day {{ day.day }}</div>

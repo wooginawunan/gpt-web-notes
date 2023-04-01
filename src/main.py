@@ -6,7 +6,7 @@ import json
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import save_response, check_response
 # openai.organization = "org-aQCFZvZK0fuWYMTKkfMmrNVK"
-openai.api_key = "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"#os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 gpt_version = 'gpt-3.5-turbo'
 max_rounds = 5
 

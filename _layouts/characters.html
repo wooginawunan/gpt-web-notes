@@ -3,71 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ page.name }} - 20 days </title>
+    <link rel="stylesheet" type="text/css" href="../../css/characters.css">
   </head>
   <body>
     <header>
       <h1>{{ page.name }}</h1>
     </header>
-    <main>
-        {{content}}
+    <main class="container">
+
+      <section class="guide-section">
+        <div class="content">{{content}}</div>
         {% assign timeline = site.data.timelines[page.character] %}
-        <div class="timeline">
-          {% assign prev_time = '' %}
-          {% for event in timeline %}
-            {% assign time = event | split: '##' | first %}
-            {% assign actions = event | remove: time | remove: '##' | split: '---' %}
-            {% if time != prev_time %}
-              <div class="time">{{ time }}</div>
-              {% assign prev_time = time %}
-            {% endif %}
-            {% for action in actions %}
-              <div class="event">
-                <div class="bullet"></div>
-                <div class="action">{{ action }}</div>
-              </div>
-            {% endfor %}
-          {% endfor %}
+        <div class="guide-card">
+          <img src="{{ site.baseurl }}/assets/images/{{ guide.image }}" alt="{{ guide.title }}">
+          <div class="all-day-actions">
+            <ul>
+              {% for day in timeline %}
+                <div class="time">Day {{ day.day }}</div>
+                {% for action in day.actions %}
+                  <li><input class="styled-checkbox" type="checkbox"><label>{{ action }}</label></li>
+                {% endfor %}
+              {% endfor %}
+            </ul>
+            <a href="{{ guide.url }}"><button>Play as {{ page.name }}</button></a>
+          </div>
         </div>
-        
-        <style>
-        .timeline {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-        }
-        
-        .time {
-          text-align: left;
-          font-weight: bold;
-          margin: 10px 0;
-        }
-        
-        .event {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          margin-left: 50px;
-          position: relative;
-        }
-        
-        .bullet {
-          position: absolute;
-          left: -25px;
-          width: 20px;
-          height: 20px;
-          border-radius: 50%;
-          background-color: #ccc;
-        }
-        
-        .action {
-          flex: 1;
-        }
-        </style>
+      </section>
         
     </main>
     <footer>
-      <p>© 2023 Nan Wu</p>
+      <p>© 2023 Nan Wu | <a href="{{ site.baseurl }}">Back to Main Page</a></p>
     </footer>
-  </body>
+  </body>  
 </html>
-

@@ -4,6 +4,7 @@ name: Wigfrid
 character: wigfrid
 description: 
 url: /characters/wigfrid/
+image: wigfrid.png
 ---
 She is a unique character in the game with a strong focus on combat and roleplaying. Here are some ways that Wigfrid differs from other characters and how her playstyle can affect your gameplay strategies:
 

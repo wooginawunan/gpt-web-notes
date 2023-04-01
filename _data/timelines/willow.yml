@@ -1,26 +1,31 @@
-- Day 1:
+- day: 1
+  actions:
   - Gather basic resources like twigs, grass, and flint to craft tools and weapons.
   - Look for a good location to set up your base camp.
   - Build a campfire and set up a basic shelter.
   - Start gathering food by hunting rabbits, gathering berries, or fishing if you are near a pond.
 
-- Day 2-5:
+- day: 2-5
+  actions:
   - Continue to gather resources and expand your base camp as needed.
   - Craft a crockpot and start experimenting with different recipes to cook more complex meals.
   - Look for more advanced resources like gold and rocks.
   - Consider exploring the map to find more resources.
 
-- Day 6-10:
+- day: 6-10
+  actions:
   - By this point, you should have a basic setup for your base camp and be relatively self-sufficient.
   - Look for ways to increase your defenses against monsters and other dangers.
   - Consider building more advanced structures like an alchemy engine or a birdcage.
 
-- Day 11-15:
+- day: 11-15
+  actions:
   - Continue to explore the map and gather resources as needed.
   - Start thinking about long-term survival strategies.
   - Consider building a lightning rod to protect your base from lightning strikes.
 
-- Day 16-20:
+- day: 16-20
+  actions:
   - By this point, you should be well-established in your base camp and have access to a variety of resources and crafting recipes.
   - Focus on achieving your specific goals for the game.
   - Keep an eye on your sanity levels.

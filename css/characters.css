@@ -118,6 +118,39 @@
     font-size: 1.1rem;
     line-height: 1.5;
     margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 35px;
+    list-style: none;
+    }
+
+      
+    .guide-card li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    }
+    
+    .guide-card li input[type=checkbox] {
+    visibility: hidden;
+    }
+    
+    .guide-card li input[type=checkbox]:checked:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #7ED321; /* Set the color of the checked checkbox */
     }
     
     .guide-card button {

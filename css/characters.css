@@ -137,7 +137,9 @@
     }
     
     .guide-card li input[type=checkbox] {
-    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
     }
     
     .guide-card li input[type=checkbox]:checked:before {

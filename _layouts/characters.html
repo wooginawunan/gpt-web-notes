@@ -17,24 +17,15 @@
         <div class="guide-card">
           <img src="{{ site.baseurl }}/assets/images/{{ guide.image }}" alt="{{ guide.title }}">
           <div>
-            <h2>{{ guide.title }}</h2>
-            <p>{{ guide.description }}</p>
+            <!--<h2>{{ guide.title }}</h2>
+            <p>{{ guide.description }}</p>-->
             <ul>
-              {% assign prev_time = '' %}
-                {% for event in timeline %}
-                  {% assign time = event | split: '##' | first %}
-                  {% assign actions = event | remove: time | remove: '##' | split: '---' %}
-                  
-                  {% if time != prev_time %}
-                    <div class="time">{{ time }}</div>
-                    {% assign prev_time = time %}
-                  {% endif %}
-
-                  {% for action in actions %}
-                    <li>{{ action }}</li>
-                  {% endfor %}
-
+              {% for day in timeline %}
+                <div class="time">{{ day.day }}</div>
+                {% for action in day.actions %}
+                  <li>{{ action }}</li>
                 {% endfor %}
+              {% endfor %}
             </ul>
             <a href="{{ guide.url }}"><button>Play as {{ page.name }}</button></a>
           </div>

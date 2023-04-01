@@ -65,7 +65,7 @@
 
   .char-section {
     width: 100%;
-    max-width: 800px;
+    max-width: 1600px;
 
     display: grid;
     grid-template-columns: repeat(3, minmax(280px, 1fr));

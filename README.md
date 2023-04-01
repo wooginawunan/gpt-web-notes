@@ -62,3 +62,5 @@ Todos:
 - GPT can be provided with code or a section of code to edit/update. Sometimes a description of what it does currently and what you want it to do helps to get a more specific answer.
 
 - When asking to change a specific element of code, it works better to provide a section of code and ask to change the specific item, and explicitly say change nothing else.
+
+- GPT API is not very stable. It broken three times to generate contents for 14 characters.

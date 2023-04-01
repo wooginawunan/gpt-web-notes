@@ -76,17 +76,6 @@
     width: 100%;
     max-width: 800px;
     }
-    
-    /*.guide-card {
-    background-color: #46362c;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
-    display: flex;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    width: 100%;
-    max-width: 800px;
-    }*/
 
     .guide-card {
         background-color: #46362c;
@@ -101,7 +90,7 @@
       }
     
     .guide-card img {
-    flex: 1;
+    object-fit: cover;
     }
     
     .guide-card div {
@@ -175,4 +164,4 @@
         border-radius: 50%;
         background: radial-gradient(circle at 30% 30%, #f9d71c, transparent);
         box-shadow: 0 0 3px 3px #f9d71c;
-      }
+    }

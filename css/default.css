@@ -63,6 +63,10 @@
     padding: 1rem;
     }
 
+    .introduction p {
+        margin-bottom: 20px;
+    }
+
     .introduction {
         width: 100%;
         max-width: 1000px;

@@ -63,7 +63,7 @@
     padding: 1rem;
     }
 
-    section.introduction {
+    .introduction {
         width: 100%;
         max-width: 1000px;
         text-align: center;

@@ -1,4 +1,3 @@
-# %%
 import os, sys
 import openai
 import json
@@ -74,5 +73,3 @@ if __name__=='__main__':
         save_response(response, name, os.environ['ROOT'])
         print(f'Character {name} is generated!')
 
-# %%
-""

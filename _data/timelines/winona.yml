@@ -1,65 +1,65 @@
 - day: 1
 	actions:
-	- Gather resources to make a tool and weapon.
-	- Look for a suitable location to set up a temporary base.
-	- Gather food items such as berries, carrots, and seeds to survive the night.
-	
+    - Gather resources to make a tool and weapon.
+    - Look for a suitable location to set up a temporary base.
+    - Gather food items such as berries, carrots, and seeds to survive the night.
+
 - day: 2
 	actions:
-	- Continue gathering resources and explore the map to find a more permanent base location.
-	- Hunt and collect more food resources such as rabbits, birds, and frogs.
-	- Build a Science machine to unlock new crafting recipes.
-  	
+    - Continue gathering resources and explore the map to find a more permanent base location.
+    - Hunt and collect more food resources such as rabbits, birds, and frogs.
+    - Build a Science machine to unlock new crafting recipes.
+
 - day: 3
 	actions:
-	- Craft a backpack and storage containers to manage the collected resources.
-	- Build basic structures such as a fire pit, a chest and a crockpot to cook food items.
-	- Hunt beefalo to collect fur and meat.
-	
+    - Craft a backpack and storage containers to manage the collected resources.
+    - Build basic structures such as a fire pit, a chest and a crockpot to cook food items.
+    - Hunt beefalo to collect fur and meat.
+
 - day: 4
 	actions:
-	- Create a farm to grow crops to save food resources for later.
-	- Gather materials for a spear or ranged weapon for protection against dangerous creatures.
-	- Begin crafting basic defenses such as walls and traps.
+    - Create a farm to grow crops to save food resources for later.
+    - Gather materials for a spear or ranged weapon for protection against dangerous creatures.
+    - Begin crafting basic defenses such as walls and traps.
 
 - day: 5
 	actions:
-	- Use Winona's toolbox to repair and fortify existing structures around the base.
-	- Hunt for a Koalefant for its meat and trunk.
-	- Create another Science machine to upgrade to a better tier.
+    - Use Winona's toolbox to repair and fortify existing structures around the base.
+    - Hunt for a Koalefant for its meat and trunk.
+    - Create another Science machine to upgrade to a better tier.
 
 - day: 6
 	actions:
-	- Continue improving the base's defensive mechanisms with the use of Winona's gadgets.
-	- Gather materials to build a Shadow Manipulator to unlock powerful magic-based crafting recipes.
-	- Craft an Alchemy Engine for even more advanced crafting.
+    - Continue improving the base's defensive mechanisms with the use of Winona's gadgets.
+    - Gather materials to build a Shadow Manipulator to unlock powerful magic-based crafting recipes.
+    - Craft an Alchemy Engine for even more advanced crafting.
 
 - day: 7
 	actions:
-	- Upgrade the base's defenses with the use of gunpowder and traps.
-	- Hunt for a spider nest and farm silk to make clothes and useful items.
-	- Gather materials for an Ice Flingomatic to avoid summer wildfire.
+    - Upgrade the base's defenses with the use of gunpowder and traps.
+    - Hunt for a spider nest and farm silk to make clothes and useful items.
+    - Gather materials for an Ice Flingomatic to avoid summer wildfire.
 
 - day: 8
 	actions:
-	- Improve the base's infrastructure, such as adding more farm plots, honey production centers or a chimney to reduce smoke.
-	- Consolidate resources and continue gathering rare items that will boost survival.
-	- Explore the caves to gather more rare materials and resources.
+    - Improve the base's infrastructure, such as adding more farm plots, honey production centers or a chimney to reduce smoke.
+    - Consolidate resources and continue gathering rare items that will boost survival.
+    - Explore the caves to gather more rare materials and resources.
 
 - day: 9-15
 	actions:
-	- Focus on crafting advanced items and structures to enhance the base's survivability.
-	- Collect rare resources such as Thulecite, gems, and fossils.
-	- Work on unlocking Winona's unique abilities and items.
+    - Focus on crafting advanced items and structures to enhance the base's survivability.
+    - Collect rare resources such as Thulecite, gems, and fossils.
+    - Work on unlocking Winona's unique abilities and items.
 
 - day: 16-20
 	actions:
-	- Consolidate resources and prepare for the last few days of survival.
-	- Complete any outstanding objectives or achievements.
-	- Help other players on the server when possible and share resources.
+    - Consolidate resources and prepare for the last few days of survival.
+    - Complete any outstanding objectives or achievements.
+    - Help other players on the server when possible and share resources.
 
 - day: 21 (goal reached)
 	actions:
-	- Celebrate and reflect on the experience gained during the last several days.
-	- Analyze gameplay and strategize for future games.
-	- Update inventory and character progression. 
+    - Celebrate and reflect on the experience gained during the last several days.
+    - Analyze gameplay and strategize for future games.
+    - Update inventory and character progression. 

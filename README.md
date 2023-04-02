@@ -13,23 +13,6 @@ However, each character in Don’t starve together is designed to have lots of s
 
 Thus, I want to provide a general to-dos provided by someone knowledgeable in the game to help users to start with. Here I consider our large language model, ChatGPT, as the knowledgeable guide. 
 
-
-
-
-### Roadmap
-
-Done:
-- ~~[Nan] formalize the content generation prompts for:~~
-    * ~~Homepage: Background and basic introduction per character.~~
-    * ~~Character page~~
-
-- ~~[Nan]formalize the prompts supporting data pipelne:~~
-    * ~~format the generated contents as `YAML` and `markdown` files.~~
-
-- ~~[Will]webpage improvement~~
-    * ~~add a theme~~
-    * ~~better designed timeline presentation~~
-
 ### Notes on working with GPT
 
 - I kept a clean version of prompt for each character, once I identify a working template. Basically, I worry about having every thing in the one long thread, will hurts the goal of making distinct timelines serving the best of different characters. 

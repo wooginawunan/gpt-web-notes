@@ -1,5 +1,9 @@
 # Guildlines for Don't Starve Together by ChatGPT
 
+### Disclaimer: 
+
+This website is a fan website and is not affiliated with Klei Entertainment. All game information and images are the property of Klei Entertainment.
+
 Webpage: https://wooginawunan.github.io/gpt-web-notes/
 ### Motivation:
 
@@ -43,3 +47,8 @@ Thus, I want to provide a general to-dos provided by someone knowledgeable in th
 
 > Assuming I am a experienced player but don't have much experience with the character, NAME. I play on one of the Klei's public servers. The goal is to survive for 20 days and unlock as many different things as possible, especially about the specific character.  Could you give me a timeline in detail, with actions to take listed, including the resources to collect, the feasts to hunt, the food to eat, as deta
 ils as possible.
+
+
+### Disclaimer: 
+
+This website is a fan website and is not affiliated with Klei Entertainment. All game information and images are the property of Klei Entertainment.

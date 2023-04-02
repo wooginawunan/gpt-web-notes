@@ -1,5 +1,5 @@
 
-- day 1:
+- day: 1
   actions:
     - Gather resources such as twigs, grass, flint, and berries to craft basic tools and weapons.
     - Explore the surrounding area for potential base locations and important resources like beefalo and pigs.
@@ -7,7 +7,7 @@
     - Look for food sources such as rabbits, butterflies, and frogs.
     - Set up a campfire and cook some basic meals for hunger and health.
 
-- day 2:
+- day: 2
   actions:
     - Continue gathering resources and work on building more structures for the base.
     - Start setting up traps for rabbits and birds to provide a steady food source.
@@ -15,7 +15,7 @@
     - Hunt a beefalo or koalefant for meat and fur.
     - Start gathering resources to build a science machine to unlock more crafting recipes.
 
-- day 3:
+- day: 3
   actions:
     - Upgrade tools and structures using advanced resources gathered on the previous day.
     - Build a crockpot to cook high-quality meals.
@@ -23,7 +23,7 @@
     - Collect resources for a fight with the first seasonal boss.
     - Transform into werebeaver to gather resources more easily and quickly.
 
-- day 4:
+- day: 4
   actions:
     - Continue preparing for the seasonal boss fight, including crafting armor and weapons.
     - Hunt down bigger and more dangerous animals like tallbirds and spiders for resources.
@@ -31,7 +31,7 @@
     - Gather and plant crop seeds to provide a stable food source in the long run.
     - Set up a bird cage and start breeding birds for food and feathers.
 
-- day 5:
+- day: 5
   actions:
     - Focus on base building, expand it and add more advanced structures such as refrigerators and lightning rods.
     - Continue exploring the map, looking for resources and potential dangers.
@@ -39,7 +39,7 @@
     - Continue planting and nurturing the crops, and harvest the ones that are ready.
     - Start gathering resources for a rain-proof hat for the upcoming Wet Season.
 
-- day 6:
+- day: 6
   actions:
     - Finish preparing for the second seasonal boss fight and defeat the boss.
     - Start preparing for upcoming seasons like building a thermal stone or a summer insulation item.
@@ -47,7 +47,7 @@
     - Start gathering more advanced resources to unlock higher-tier technology.
     - As a werebeaver, chop down a grove of trees to grow plants and crops.
 
-- day 7:
+- day: 7
   actions:
     - Focus on unlocking higher-tier technology and craft endgame structures and items.
     - Explore the caves thoroughly and gather as many resources as possible.
@@ -55,7 +55,7 @@
     - Gather resources to craft the best weapons and armor, and use them to conquer more dangerous areas.
     - Defend the base against hound attacks and other seasonal events.
 
-- day 8-20:
+- day: 8-20
   actions:
     - Continue exploring, gathering resources, and building up the base.
     - Hunt down bosses and conquer new areas.

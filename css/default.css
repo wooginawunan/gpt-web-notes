@@ -1,5 +1,14 @@
 /* Global Styles */
 
+#disclaimer {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 *{
     box-sizing: border-box;
     }

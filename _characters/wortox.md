@@ -4,7 +4,7 @@ name: Wortox
 character: wortox
 description: Wortox is a mischievous demon character in Don't Starve Together who can teleport short distances, heal himself by eating souls, and has the ability to revive other characters with his soul healing powers. He is immune to fire damage and can also use his horns to attack enemies. However, he has a weakness to hunger and cannot eat normal food, and also takes more damage from physical attacks.
 url: /characters/wortox
-url: wortox.png
+image: wortox.png
 ---
 **Wortox's Special Abilities:**
 

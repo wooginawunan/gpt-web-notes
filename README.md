@@ -42,20 +42,19 @@ each action per day is seperated by `---`
 #### Roadmap
 
 Todos:
-- [Nan] formalize the content generation prompts for: 
+- ~~[Nan] formalize the content generation prompts for: ~~
 
     * Homepage: Background and basic introduction per character.
     * Character page
 
-- [] formalize the prompts supporting data pipelne:
+- ~~formalize the prompts supporting data pipelne:~~
     * format the generated contents as `YAML` and `markdown` files.
 
-- [] webpage improvement 
-    * add a theme 
-    * better designed timeline presentation 
-    * 
+- ~~webpage improvement ~~
+    * ~~add a theme ~~
+    * ~~better designed timeline presentation ~~
 
-#### Notes
+#### Notes on working with GPT
 
 - It is harder to generate stylistic changes (i.e. .css) than it is to generate the content of a webpage (i.e. .html), therefore it may be easier to generate a temporary test .html first, then generate and fine tune the style .css fill before finalizing a structure/template of the ending .html file.
 
@@ -64,3 +63,5 @@ Todos:
 - When asking to change a specific element of code, it works better to provide a section of code and ask to change the specific item, and explicitly say change nothing else.
 
 - GPT API is not very stable. It broken three times to generate contents for 14 characters.
+
+- The content generetion is 98% reliable. With format specificed, among all characters we have, it failed in only one in YAML file.

@@ -63,29 +63,38 @@ padding: 1rem;
 }
 
 .introduction p {
-    margin-bottom: 20px;
     /* your existing styles for the introduction section */
-
+    margin-bottom: 20px;
     /* styles for the disclaimer section within the introduction */
+    .introduction {
+      /* your existing styles for the introduction section */
+    }
+    
+    .disclaimer-box {
+      background-color: #a3b28e;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
     .disclaimer {
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-      padding: 10px;
-      margin: 20px 0;
+      font-size: 16px;
+      color: #666;
     }
-
-    .disclaimer p {
-      margin: 0;
+    
+    .disclaimer a {
+      color: #333;
+      text-decoration: underline;
     }
-
-    .disclaimer:before,
-    .disclaimer:after {
+    
+    .disclaimer-box:before,
+    .disclaimer-box:after {
       content: "";
       display: block;
       height: 1px;
-      background-color: #ccc;
+      background-color: #d6d78c;
       margin: 10px 0;
     }
+    
 }
 
 .introduction {

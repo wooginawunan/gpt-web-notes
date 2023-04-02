@@ -63,6 +63,12 @@
     padding: 1rem;
     }
 
+    section.introduction {
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+    }
+
   .char-section {
     width: 100%;
     max-width: 1600px;

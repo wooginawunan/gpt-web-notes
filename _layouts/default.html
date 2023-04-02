@@ -3,8 +3,6 @@
   
   <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}"> --> 
-    <!-- <link rel="stylesheet" href="/gpt-web-notes/css/style.css">--> 
     <link rel="stylesheet" href="{ site.baseurl }{{'/css/style.css' }}">
     <title>Don't Starve Together Characters</title>
     <link rel="stylesheet" type="text/css" href="css/default.css">
@@ -21,14 +19,11 @@
       <section class="char-section">
         {% for character in site.characters %}
         <div class="char-card">
-          <h2><!--<a href="{{ site.baseurl }}{{ character.url }}">-->{{ character.name }}</a></h2>
+          <h2>{{ character.name }}</a></h2>
           <img src="{{ site.baseurl }}/assets/images/{{ character.image }}" alt="{{ character.name }} Picture">
           <p>{{ character.description }}</p>
           <a href="{{ site.baseurl }}{{ character.url }}"><button>View Guide</button></a>
         </div>
-        <!--{% if forloop.last == false %}
-        <hr>
-        {% endif %} -->
         {% endfor %}
       </section>
     </main>

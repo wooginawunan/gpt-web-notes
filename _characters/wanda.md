@@ -4,7 +4,7 @@ name: Wanda
 character: wanda
 description: Wanda is one of the playable characters in Don't Starve Together, who was added into the game during the Forge event. She is a seasoned metalworker and an expert in the art of blacksmithing. Wanda has a passion for creating unique and powerful weaponry, and she starts the game with her own custom-made Forge Hammer, which she can use to repair armor and weapons. In addition to her impressive crafting skills, Wanda is also a capable fighter, with an inherent 25% damage reduction from all sources. However, she is not without her weaknesses, as she has a tendency to overheat and take damage in hot environments. Overall, Wanda is a versatile and useful character to have on your team in Don't Starve Together.
 url: /characters/wanda
-url: wanda.png
+image: wanda.png
 ---
 ## Wanda's Playing Strategies in Don't Starve Together
 

@@ -26,7 +26,7 @@ def save_response(response, name, path):
         elif line.startswith('url:'):
             updated_md.append(f"url: /characters/{name.lower()}\n")
         elif line.startswith('image:'):
-            updated_md.append(f"url: {name.lower()}.png\n")
+            updated_md.append(f"image: {name.lower()}.png\n")
         else:
             updated_md.append(line)
             

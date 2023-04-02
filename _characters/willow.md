@@ -2,7 +2,7 @@
 layout: characters
 name: Willow
 character: willow
-description: Willow is a unique character in Don't Starve Together in that she starts with a lighter, which can be used to light fires and set enemies and objects on fire. However, she has a lower sanity threshold than other characters and is more susceptible to insanity-related effects.
+description: Willow is one of the playable characters in Don't Starve Together. She is a pyromaniac and gets easily excited by fire. Her special abilities include being immune to fire damage, being able to make fire starting items with less resources, and sometimes spawning with a lighter. However, she has a low sanity and is more likely to start fires accidentally or intentionally, which can cause trouble for her and her teammates. Despite her quirks, Willow is a fun and unique character to play as and adds an element of unpredictability to the game.
 url: /characters/willow/
 image: willow.png
 ---
@@ -18,3 +18,10 @@ Overall, playing as Willow requires a balance of caution and creativity. She can
 
 **Note**: It's important to note that the above strategies are based on general gameplay and may not apply to all game situations. It's always best to adapt your gameplay style to the specific challenges you're facing in the game.
 
+## Playing Strategies with Willow
+
+When playing as Willow, it's essential to take advantage of her fire starting abilities while being mindful of her low sanity and fire starting tendencies. Here are some tips to make the best of Willow's strengths while minimizing her weaknesses:
+
+* **Use fire as a weapon:** Willow is excellent at burning down spider dens, treeguards, or tallbird nests. She can also use fire to herd mobs, such as pigs or rabbits, into traps or corners. However, it's essential to be careful not to set fire to the surrounding terrain or burn nearby structures accidentally.
+* **Collect sanity restoring items often:** Because Willow starts with low sanity, it's crucial to collect green mushrooms, cooked cactus, or top hats regularly to keep her sanity levels up. Make sure to keep a stockpile of these items in case of emergencies.
+* **Be mindful of flammable objects:** Willow's affinity for fire can be a double-edged sword. While she can use fire as a weapon or a source of warmth, it's crucial to be mindful of flammable objects, such as wooden structures or grass/trees during the summer. Make sure to keep a telltale heart, tentacles spike, or booster shot to revive her if she gets killed accidentally by a fire she started.

@@ -1,8 +1,43 @@
-- "Day 1##Collect grass, twigs, and flint---Build a campfire before nightfall"
-- "Day 2##Gather more resources, including rocks, logs, and food---Build a science machine to unlock new crafting recipes"
-- "Day 3##Explore the surrounding area and gather more resources---Consider building a backpack or a log suit for protection"
-- "Day 4-6##Build a base camp with a fire pit and drying racks for food---Craft a shovel and start digging up berry bushes to transplant to your camp---Consider building farms to grow crops for long-term survival"
-- "Day 7-10##Begin exploring further from your camp to gather rare resources and discover new areas---Build more advanced structures like an alchemy engine or a crock pot to expand your crafting options---Prepare for the upcoming winter by stockpiling resources and warm clothing"
-- "Day 11-15##Start hunting for larger animals like beefalo or koalefants to obtain meat and resources---Consider building walls or traps to protect your base from monsters and enemies---Build an ice box to preserve food and other perishable items"
-- "Day 16-19##Focus on preparing for the upcoming seasons and their unique challenges---Build an insulated jacket or other winter gear to stay warm during the winter---Prepare for the summer by stockpiling resources and building structures to protect from heat and wildfires"
-- "Day 20##Assess your progress so far and continue to work on long-term survival goals---Consider exploring even further from your base to discover new resources and challenges---Above all, stay vigilant and be prepared for anything that the game may throw your way!"
+
+- day: 1
+  actions:
+  - Collect resources to make a Science Machine and set up a base.
+  - Gather enough materials for basic tools, such as an axe and pickaxe.
+  - Hunt for food, such as rabbits and birds, and gather twigs and grass.
+  - Start growing Wilson's beard to prepare for crafting Meat Effigy.
+
+- day: 2
+  actions:
+  - Build a Science Machine and start crafting more advanced tools, such as a shovel and spear.
+  - Explore the surrounding area to gather resources and map out the terrain.
+  - Continue gathering food and preparing for winter.
+  - Keep collecting grass and twigs to set up traps for food gathering.
+
+- day: 3-5
+  actions:
+  - Build a crockpot and start cooking more advanced meals with better food options.
+  - Keep exploring the map and gathering resources for survival.
+  - Build a Birdcage to get eggs and feathers, a drying rack to make jerky.
+  - Keep an eye out for dangerous creatures and avoid unnecessary fights.
+
+- day: 6-10
+  actions:
+  - Build an Alchemy Engine to research new technology, such as healing salves and thermal stones for cold weather.
+  - Start preparing for winter by gathering and storing resources for food, warmth and light.
+  - Build a tent as backup to rest for sanity and health.
+  - Build a lightning rod to protect the base from thunderstorms.
+
+- day: 11-15
+  actions:
+  - Gather materials to create a Meat Effigy to prepare for possible death situations.
+  - Plan out and set up a farm to grow vegetables and crops for sustainable food options.
+  - Continuously gather resources and materials for weapons and armor.
+  - Build a fridge to store perishable food items for longer.
+
+- day: 16-20
+  actions:
+  - Start experimenting with Wilson's beard hair to craft items such as Meat Effigy and Life Giving Amulet.
+  - Build a shadow manipulator to craft more advanced magic items, such as gems and dark swords.
+  - Hunt for boss monsters to obtain unique items and unlock more of Wilson's story.
+  - Prepare for and survive the winter, making sure to stay warm and well-fed.
+

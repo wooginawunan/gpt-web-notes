@@ -1,0 +1,49 @@
+YAML
+- day: 1
+  actions:
+    - Collect grass, twigs and flint to craft basic tools and a backpack.
+    - Gather enough food for the first few days, including berries, carrots and seeds.
+    - Build a Science Machine to start researching new technologies.
+    - Craft "Applied Horticulture" and "Birds of the World" books for a research bonus and sanity management.
+
+- day: 2
+  actions:
+    - Explore the area and gather resources such as logs, rocks, and gold.
+    - Set up a base camp in a strategic location with access to resources such as rabbits or beefalo.
+    - Start planting crops with the help of "Applied Horticulture" book.
+    - Craft a Tent for Wickerbottom to sleep through the night.
+
+- day: 3
+  actions:
+    - Craft more advanced tools such as a Spear, a Shovel, and a Backpack.
+    - Continue exploring the surrounding area for more resources.
+    - Explore nearby caves to gather rare resources such as light bulbs or guano.
+    - Keep a lookout for spiders and beefalo, which can be sources of valuable resources such as silk and wool.
+
+- day: 4-7
+  actions:
+    - Focus on building up the base with walls, structures and furniture.
+    - Cook different food items using a Crockpot and fully utilize the benefits from books.
+    - Keep up with planting crops and creating a sustainable food source.
+    - Keep an eye out for hounds and use traps to defend the base.
+
+- day: 8-10
+  actions:
+    - Start exploring the ruins to find Ancient Guardian, who drops the Old Bell that can be used to explore other biomes.
+    - Craft a Battle Helm and a Spear to deal with tougher enemies.
+    - Build a Lightning Rod to avoid lightning strikes during bad weather.
+
+- day: 11-15
+  actions:
+    - Start preparing for winter by creating winter clothing such as a Puffy Vest or a Beefalo Hat.
+    - Gather resources to create a Heat Stone for Wickerbottom, who can't sleep through the night without a Tent.
+    - Craft a Thermal Stone for other players to survive the cold weather.
+    - Start stockpiling firewood and food for the winter.
+
+- day: 16-20
+  actions:
+    - Stay close to the campfire during winter days and explore nearby caves.
+    - Use "Birds of the World" book to capture birds in a Bird Trap.
+    - Keep a steady supply of food and resources to survive the winter.
+    - Review the research points and unlock new technologies to level up.
+

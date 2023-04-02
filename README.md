@@ -26,9 +26,9 @@ Done:
 - ~~[Nan]formalize the prompts supporting data pipelne:~~
     * ~~format the generated contents as `YAML` and `markdown` files.~~
 
-- ~~[Will]webpage improvement ~~
-    * ~~add a theme ~~
-    * ~~better designed timeline presentation ~~
+- ~~[Will]webpage improvement~~
+    * ~~add a theme~~
+    * ~~better designed timeline presentation~~
 
 ### Notes on working with GPT
 

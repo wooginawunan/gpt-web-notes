@@ -4,6 +4,7 @@ name: Wurt
 character: wurt
 description: Wurt is a merfolk who was introduced in the "Return of Them: Salty Dog" update in Don't Starve Together. She was stranded in the Constant after her people's ship was destroyed by Charlie. Wurt has a unique diet, as she cannot eat any food that is not vegetarian, although she can eat raw fish. She is also able to craft her own structures and items using her cultural knowledge, such as the Mud Turf and the Salt Lick. Wurt is a strong swimmer and is immune to the effects of wetness, making her a valuable member of any team exploring the game's water biomes.
 url: /characters/wurt
+image: wurt.png
 ---
 ### **How is Wurt different from other roles in Don't Starve Together?**
 

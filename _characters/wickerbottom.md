@@ -4,6 +4,7 @@ name: Wickerbottom
 character: wickerbottom
 description: Wickerbottom is an elderly librarian and professor who was stranded in the wilderness. She has high sanity and a love for books, knowledge and science. Her main abilities include the ability to craft books which provide a research bonus, and the ability to read books to regain sanity. She is a knowledgeable and useful member of any group, but her lack of combat skills and inability to sleep without a tent can make her vulnerable in dangerous situations.
 url: /characters/wickerbottom
+image: wickerbottom.png
 ---
 ### Wickerbottom's Role in Don't Starve Together
 

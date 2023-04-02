@@ -4,6 +4,7 @@ name: Walter
 character: walter
 description: Walter is one of the playable characters in Don't Starve Together. He is a young boy with a red-and-white striped shirt and a beanie hat. Unlike other characters, Walter has access to a slingshot that he can use to hunt small animals for food. He also has the unique ability to make and wield a Woby, a loyal and durable dog-like creature that can carry items and even protect Walter from enemies. However, Woby needs to be fed and cared for, or else she will become sick and useless. Overall, Walter is a fun and quirky character that offers a unique playstyle to the game.
 url: /characters/walter
+image: walter.png
 ---
 ## How is Walter different from other roles in Don't Starve Together?
 - **Slingshot**: Walter has access to a slingshot, which he can use to hunt small animals for food. This makes him great for players who prefer to avoid combat with larger creatures.

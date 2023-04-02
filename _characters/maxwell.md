@@ -4,6 +4,7 @@ name: Maxwell
 character: maxwell
 description: Maxwell is a mysterious and enigmatic character in Don't Starve Together. He is known for his top hat and suit, and appears to have a love for drama and theater. His abilities revolve around summoning creatures and utilizing his knowledge of the "Nightmare Throne" to manipulate the game's world. Maxwell's backstory and motivations are shrouded in secrecy, and players must uncover his true nature through gameplay and exploration.
 url: /characters/maxwell
+image: maxwell.png
 ---
 ## Maxwell's Unique Role in Don't Starve Together
 

@@ -4,6 +4,7 @@ name: Woodie
 character: woodie
 description: Woodie is a Canadian lumberjack who brings his trusty axe, Lucy, into battle. He has a unique ability to transform into a werebeaver, which allows him to chop down trees quicker and build structures faster, but also comes with a downside of uncontrollable hunger and a vulnerability to attacks. He loves maple syrup and often quotes Canadian stereotypes.
 url: /characters/woodie
+image: woodie.png
 ---
 ### **Woodie and his Unique Abilities**
 

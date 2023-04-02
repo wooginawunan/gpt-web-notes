@@ -4,6 +4,7 @@ name: Warly
 character: warly
 description: Warly is one of the playable characters in Don't Starve Together. He is a traveling chef who specializes in preparing unique and flavorful dishes. He comes with his own portable Crock Pot, which allows him to cook more advanced recipes on the go. However, Warly is somewhat picky about food and gets reduced benefits from eating the same thing too often. He also has a unique set of recipes that he can learn and experiment with throughout the game. Overall, Warly is a fun and flavorful addition to any Don't Starve Together game.
 url: /characters/warly
+image: warly.png
 ---
 ## **Warly in Don't Starve Together**
 

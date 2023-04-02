@@ -4,6 +4,7 @@ name: Webber
 character: webber
 description: Webber is a playable character in Don't Starve Together who appears to be a spider who wears a top hat and tie. He cannot eat many food items that other characters can consume, but he can eat monster meat, which would normally reduce sanity points for other characters. Additionally, spiders will not attack Webber unless provoked, and he can befriend them to fight for him. However, other players might not trust him due to his spider-like appearance. Webber's gameplay style is centered around monster meat farming, spider management, and interacting with other players in unique ways.
 url: /characters/webber
+image: webber.png
 ---
 **Webber's Unique Traits:**
 

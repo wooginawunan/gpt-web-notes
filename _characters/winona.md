@@ -4,6 +4,7 @@ name: Winona
 character: winona
 description: Winona is one of the playable characters in Don't Starve Together. She is a maintenance worker with a background in engineering, which gives her the ability to create mechanical devices that can be used to aid in survival. She is also able to repair and fortify existing structures. Winona is known for her practicality and resourcefulness, making her a valuable addition to any surviving team.
 url: /characters/winona
+image: winona.png
 ---
 ## **Winona:**
 

@@ -4,6 +4,7 @@ name: Wolfgang
 character: wolfgang
 description: Wolfgang is one of the playable characters in Don't Starve Together. He is a strongman from a travelling circus and has a very muscular physique. Wolfgang has two forms, with his regular form being strong and his mighty form being even stronger. However, he has a downside where he needs to eat more food than other characters. He is great at fighting and can deal a lot of damage, making him a useful addition to any team.
 url: /characters/wolfgang
+image: wolfgang.png
 ---
 **Wolfgang's Strengths:**
 - **High Damage Output:** Wolfgang is a powerhouse in fights and can deal a lot of damage to enemies.

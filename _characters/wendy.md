@@ -4,6 +4,7 @@ name: Wendy
 character: wendy
 description: Wendy is a playable character in Don't Starve Together. She is a survivor haunted by the ghost of her twin sister, Abigail. She is weaker in combat than other characters, but her ghostly sister can aid her in battle for a short time. Wendy is somewhat melancholic and introspective, often speaking in poetic language and reflecting on the nature of life and death. She is well-versed in the supernatural and occult, and her story is one of grief and loss, with Abigail serving as a constant reminder of her past.
 url: /characters/wendy
+image: wendy.png
 ---
 ## **Wendy in Don't Starve Together**
 

@@ -4,6 +4,7 @@ name: Wormwood
 character: wormwood
 description: Wormwood is a plant-based character in Don't Starve Together. He is a small, sentient plant with thorns and a flower head. Unlike other characters, he does not need to eat food to survive and instead gains health by standing near plants or by planting his own. He is also immune to poison and can be healed by fertilizer. However, he cannot wear armor or use healing items, making him vulnerable in combat situations. Wormwood's sanity is affected by chopping down trees and killing animals, but he gains sanity by planting seeds and being near other plants. Overall, Wormwood is a unique and interesting character for players who enjoy a different playstyle than the traditional survival method.
 url: /characters/wormwood
+image: wormwood.png
 ---
 **Wormwood vs Other Roles**
 

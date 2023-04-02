@@ -4,6 +4,7 @@ name: Wes
 character: wes
 description: Wes is one of the playable characters in Don't Starve Together. He is a mime and has a pale white face with a red smile painted on it. Wes is known for being one of the most difficult characters to play as he has very low health and hunger, and his special ability is to create balloons that can only be used for entertainment purposes. Despite these drawbacks, he has higher sanity and speed than other characters. Wes is often seen as a "challenge" character and is popular among experienced players who enjoy a challenge.
 url: /characters/wes
+image: wes.png
 ---
 ## **Wes in Don't Starve Together**
 

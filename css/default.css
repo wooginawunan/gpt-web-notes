@@ -63,46 +63,46 @@ padding: 1rem;
 }
 
 .introduction p{
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .introduction {
   /* your existing styles for the introduction section */
-    width: 100%;
-    max-width: 1000px;
-    text-align: center;
-
-        /* styles for the disclaimer section within the introduction */
-    
-        .disclaimer-box {
-          background-color: #a3b28e;
-          padding: 20px;
-          margin-bottom: 20px;
-        }
-        
-        .disclaimer {
-          background-color: #f7f6f2;
-          color: #2c2b2a;
-          font-family: 'Lucida Sans Unicode', sans-serif;
-          font-size: 14px;
-          padding: 10px;
-          margin: 10px 0;
-        }
-        
-        .disclaimer a {
-          color: #333;
-          text-decoration: underline;
-        }
-        
-        .disclaimer-box:before,
-        .disclaimer-box:after {
-          content: "";
-          display: block;
-          height: 1px;
-          background-color: #d6d78c;
-          margin: 10px 0;
-        }
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
 }
+
+/* styles for the disclaimer section within the introduction */
+.disclaimer-box {
+  background-color: #a3b28e;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  background-color: #f7f6f2;
+  color: #2c2b2a;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.disclaimer a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.disclaimer-box:before,
+.disclaimer-box:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #d6d78c;
+  margin: 10px 0;
+}
+
 
 .char-section {
 width: 100%;

@@ -36,10 +36,6 @@
     color: #d9d8d4;
     }
   
-    img {
-    max-width: 100%;
-    }
-  
     header {
     background-color: #a75a3c;
     padding: 1rem;
@@ -67,9 +63,15 @@
     padding: 1rem;
     }
 
+    .introduction {
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+    }
+
   .char-section {
     width: 100%;
-    max-width: 800px;
+    max-width: 1600px;
 
     display: grid;
     grid-template-columns: repeat(3, minmax(280px, 1fr));
@@ -83,14 +85,13 @@
     margin: 0 auto 1rem;
     overflow: hidden;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
     }
     
     .char-card img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
-    border-radius: 50%;
     margin-bottom: 20px;
     }
     

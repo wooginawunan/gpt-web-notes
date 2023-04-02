@@ -15,6 +15,9 @@
       <p>A Guide to the Characters</p>
     </header>
     <main>
+      <section class="introduction">
+        {{ content }}
+      </section>
       <section class="char-section">
         {% for character in site.characters %}
         <div class="char-card">
@@ -23,9 +26,9 @@
           <p>{{ character.description }}</p>
           <a href="{{ site.baseurl }}{{ character.url }}"><button>View Guide</button></a>
         </div>
-        {% if forloop.last == false %}
+        <!--{% if forloop.last == false %}
         <hr>
-        {% endif %}
+        {% endif %} -->
         {% endfor %}
       </section>
     </main>
